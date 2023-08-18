@@ -1,0 +1,74 @@
+:root{
+     
+    --main-bg-color:darkslategrey;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    background-color: darkslategrey;
+    color: white;
+    size:14px;
+    padding: 2px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.home:hover{
+    cursor: pointer;
+    color: rgb(177, 192, 192);
+}
+#title{
+    text-align: center;
+     font-size: 7vh;
+     margin: 2%;
+
+    text-shadow: 5px 5px 10px pink;}
+    body{
+        background-color:palevioletred;
+        color: darkslategrey;
+    }
+    img {
+        width: 25%;
+        display: block;
+        margin-left:auto ;
+        margin-right:auto ;}
+        #caption {
+            font-size: 17px;
+            font-family: Gill Sans;
+            color: darkslategrey;
+            position: relative;
+            left: 200px;
+                    }
+
+                .srk{
+                    background-color: rgb(240, 54, 116);
+                    box-shadow: 20px 20px 40px pink;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 50px 300px 10px 300px;
+        }
+                h1.titlesrk{
+                    font-size: 35px;
+                    text-align: center;
+                    color:rgb(252, 195, 205) ;
+                    text-shadow:5px 5px 10px var(--main-bg-color) ;
+                    margin: 20px 0 50px 0;
+                }
+                p.quo{
+                    color: pink;
+                    font-family: cursive;
+                }
+                .foot{
+                    height: 300px;
+                    justify-content: center;
+                    text-align: center;
+                }
+        .lin{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+    
